@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Photo from "./Photo";
 import { FaSearch } from "react-icons/fa";
 const clientID = `?client_id=${process.env.REACT_APP_ACCESS_KEY}`;
-const mainUrl = `https://api.unsplash.com/`;
+const mainUrl = "https://api.unsplash.com/photos/";
 // const searchUrl = "https://api.unsplash.com/search/photos";
 
 function App() {
@@ -63,7 +63,7 @@ function App() {
           })}
         </div>
       </section>
-      {loading && <h2 className="loading">Loading...</h2>}
+      {/* {loading && <h2 className="loading">Loading...</h2>} */}
     </main>
   );
 }
