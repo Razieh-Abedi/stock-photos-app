@@ -229,3 +229,10 @@ Stock Photos
   text-align: center;
   padding: 3rem;
 }
+.footer {
+  text-align: center;
+}
+.footer-link {
+  text-decoration: none;
+  color: black;
+}

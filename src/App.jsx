@@ -129,6 +129,16 @@ function App() {
         </div>
       </section>
       {loading && <h2 className="loading">Loading...</h2>}
+      <footer className="footer">
+        <a
+          href="https://raziwebdeveloper.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-link"
+        >
+          Developed with ❤ by raziwebdeveloper.com
+        </a>
+      </footer>
     </main>
   );
 }
